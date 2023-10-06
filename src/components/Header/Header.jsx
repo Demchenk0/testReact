@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ImageLogo from '../../img/logo2.svg'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import styles from './Header.module.scss';
 const Header = () => {
@@ -10,7 +11,9 @@ const Header = () => {
 	return (
 		<header className={styles.header}>
 			<div className={styles.container}>
-				<a href="/">logo</a>
+			
+				<img src={ImageLogo} alt="logo" style={{width: 50}} />
+			
 				<nav>
 					<ul className={styles.list}>
 						<li className={styles.item}>Послуги</li>

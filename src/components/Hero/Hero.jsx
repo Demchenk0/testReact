@@ -16,6 +16,9 @@ const Hero = () => {
 					sint id enim quasi! Vitae recusandae maiores et, ratione atque
 					reiciendis cupiditate!
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis labore neque fuga eum. Assumenda dolore laudantium ex, quod earum nam, aperiam totam voluptates vero obcaecati corrupti. Perspiciatis, voluptate laboriosam! Deleniti.</p>
+      <div>
+      <a href="/"><button className={styles.bn30}>Button</button></a>
+      </div>
 			</div>
 		</section>
 	);
