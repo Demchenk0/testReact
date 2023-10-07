@@ -24,7 +24,7 @@ const Header = () => {
 				</nav>
 				{/* Mobile Button */}
 				<div className={styles.icon} onClick={handleNav}>
-					{nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+					{nav ? <AiOutlineClose size={25}  style={{color: "white"}} /> : <AiOutlineMenu size={25} style={{color: "white"}} />}
 				</div>
 				{/* Mobile Menu */}
 				{nav && (
