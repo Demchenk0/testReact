@@ -3,14 +3,93 @@
     background-color: #0a192f;
     height: 100vh;
     width: 100%;
+    color: white;
 }
 .container {
     max-width: 1000px;
-    // height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 30px;
     margin: auto;
- 
+    color: #cac7c7;
+    background: rgba(214, 214, 214, 0.3960784314);
+    border-radius: 50px 50px 0 0;
 }
+
+.texth1 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    line-height: 110%;
+    color: #242424;
+    font-size: 26px;
+    text-align: center;
+}
+
+.box{ 
+    margin-top: 20px;
+}
+.boxbutton {
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    display: inline-block; 
+}
+.button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: #242424;
+}
+
+
+.scrollContainer {
+    overflow-x: scroll;
+    white-space: nowrap; /* Забезпечуємо, щоб кнопки не переносились на новий рядок */
+    max-width: 1000px; /* Задайте бажану ширину видимої області */
+    background-color: black;
+    border-radius: 15px 15px 0 0;
+}
+.scrollContainer::-webkit-scrollbar {
+    width: 10px; /* Ширина полоси прокрутки */
+    height: 10px;
+}
+
+/* Стилі для ковзка (відображається на полосі прокрутки) */
+.scrollContainer::-webkit-scrollbar-thumb {
+    // background-color: #006fd7; /* Колір ковзка */
+    border-radius: 5px; /* Закруглені кути ковзка */
+    background: white;
+}
+
+/* Стилі для полоси прокрутки при наведенні миші */
+.scrollContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #d5d5d5; /* Колір ковзка при наведенні миші */
+}
+
+.boxtext {
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.texth2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.textp {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+
+
