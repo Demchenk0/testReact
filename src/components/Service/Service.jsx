@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import styles from './Service.module.scss';
+import Landing1 from './Landing1';
+import Landing2 from './Landing2';
+import Landing3 from './Landing3';
+import Landing4 from './Landing4';
+import Landing5 from './Landing5';
 
 const Service = () => {
   const [activeButton, setActiveButton] = useState(1);
@@ -18,27 +23,11 @@ const Service = () => {
 							<button className={styles.button} onClick={()=>setActiveButton(5)}>5 Landing page</button>
 						</div>
 					</div>
-					{activeButton === 1 && <div className={styles.boxtext}>
-						<h2 className={styles.texth2}>
-							Ідеальний варіант для бізнесу, якому потрібна коротка, але
-							змістовна, презентація
-						</h2>
-						<p className={styles.textp}>
-							Завдяки зручності такого формату, можна легко подати користувачу
-							всю важливу інформацію та швидко підвести його до покупки
-						</p>
-						<p className={styles.textp}>Обирайте цей тип сайту, якщо:</p>
-					</div>}
-					{activeButton === 2 && <div className={styles.boxtext}>
-						<h2 className={styles.texth2}>
-							Ідеальний варіант для бізнесу, якому потрібна коротка, але
-							змістовна, презентація
-						</h2>
-						<p className={styles.textp}>
-							2222222222222222222222222222222222222222222222222222222222
-						</p>
-						<p className={styles.textp}>Обирайте цей тип сайту, якщо:</p>
-					</div>}
+					{activeButton === 1 && <Landing1/>}
+					{activeButton === 2 && <Landing2/>}
+					{activeButton === 3 && <Landing3/>}
+					{activeButton === 4 && <Landing4/>}
+					{activeButton === 5 && <Landing5/>}
 				</div>
 			</div>
 		</section>
