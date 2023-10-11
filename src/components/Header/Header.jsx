@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ImageLogo from '../../img/logo2.svg'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import styles from './Header.module.scss';
@@ -8,8 +8,25 @@ const Header = () => {
 	const handleNav = () => {
 		setNav(!nav);
 	};
+
+	const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 	return (
-		<header className={styles.header}>
+		<header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
 			<div className={styles.container}>
 			
 				<img src={ImageLogo} alt="logo" style={{width: 50}} />
