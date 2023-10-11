@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Service.module.scss';
 import ImageServise from '../../img/bro.svg';
-import { GoTasklist } from 'react-icons/go';
+import { GoCheckCircle, GoChecklist } from 'react-icons/go';
 
 const Landing1 = () => {
 	return (
@@ -16,16 +16,13 @@ const Landing1 = () => {
 				<p className={styles.textp}>Choose this type of website if:</p>
 				<ul className={styles.list}>
 					<li className={styles.item}>
-						<GoTasklist style={{ marginRight: '10px' }} size={35} />
-						<p>You want to present your own info product, service, book, etc.</p>
+						<GoChecklist  style={{ marginRight: '10px' }} size={35} />
+						<p className={styles.textp}>You want to present your own info product, service, book, etc.</p>
 					</li>
+					
 					<li className={styles.item}>
-						<GoTasklist style={{ marginRight: '10px' }} size={35} />
-						<p>You have a small number of products but want to have a much larger number (up to 8)</p>
-					</li>
-					<li className={styles.item}>
-						<GoTasklist style={{ marginRight: '10px' }} size={35} />
-						<p>You need a short portfolio of a specialist or a business card site</p>
+						<GoCheckCircle style={{ marginRight: '10px' }} size={35} />
+						<p className={styles.textp}>You need a short portfolio of a specialist or a business card site</p>
 					</li>
 				</ul>
 				<button className={styles.bn30}>I want</button>

@@ -28,15 +28,16 @@ const Header = () => {
 	return (
 		<header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
 			<div className={styles.container}>
-			
-				<img src={ImageLogo} alt="logo" style={{width: 50}} />
+			<a href="/">
+				<img src={ImageLogo} href='#' alt="logo" style={{width: 50, cursor:'pointer'}} />
+			</a>
 			
 				<nav>
 					<ul className={styles.list}>
-						<li className={styles.item}>Послуги</li>
-						<li className={styles.item}>Про мене</li>
-						<li className={styles.item}>Часті запитання</li>
-						<li className={styles.item}>Контакти</li>
+						<li className={styles.item}>Services</li>
+						<li className={styles.item}>Why us</li>
+						<li className={styles.item}>FAQ</li>
+						<li className={styles.item}>Contact</li>
 					</ul>
 				</nav>
 				{/* Mobile Button */}
@@ -47,10 +48,10 @@ const Header = () => {
 				{nav && (
 					<div className={styles.mobmenu}>
 						<ul className={styles.qq}>
-							<li className={styles.mobItem}>Послуги</li>
-							<li className={styles.mobItem}>Про мене</li>
-							<li className={styles.mobItem}>Часті запитання</li>
-							<li className={styles.mobItem}>Контакти</li>
+							<li className={styles.mobItem}>Services</li>
+							<li className={styles.mobItem}>Why us</li>
+							<li className={styles.mobItem}>FAQ</li>
+							<li className={styles.mobItem}>Contact</li>
 						</ul>
 					</div>
 				)}

@@ -53,8 +53,8 @@ const Contact = () => {
 						{input === 3 && (
 							<input
 								className={styles.input}
-								type="phone"
-								placeholder="@Nicname"
+								type="text"
+								placeholder="@Nickname"
 								name="phone"
 								required
 							/>
