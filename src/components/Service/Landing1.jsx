@@ -8,29 +8,27 @@ const Landing1 = () => {
 		<div className={styles.boxtext}>
 			<div className={styles.half}>
 				<h2 className={styles.texth2}>
-					Ідеальний варіант для бізнесу, якому потрібна коротка, але змістовна,
-					презентація
+				Ideal for businesses that need a short but informative presentation
 				</h2>
 				<p className={styles.textp}>
-					Завдяки зручності такого формату, можна легко подати користувачу всю
-					важливу інформацію та швидко підвести його до покупки
+				Thanks to the convenience of this format, you can easily provide the user with all the important information and quickly lead them to a purchase
 				</p>
-				<p className={styles.textp}>Обирайте цей тип сайту, якщо:</p>
+				<p className={styles.textp}>Choose this type of website if:</p>
 				<ul className={styles.list}>
 					<li className={styles.item}>
 						<GoTasklist style={{ marginRight: '10px' }} size={35} />
-						<p>Ви хочете власний інфо-продукт, послугу, книгу і т.д.</p>
+						<p>You want to present your own info product, service, book, etc.</p>
 					</li>
 					<li className={styles.item}>
 						<GoTasklist style={{ marginRight: '10px' }} size={35} />
-						<p>Ви хочете власний інфо-продукт, послугу, книгу і т.д.</p>
+						<p>You have a small number of products but want to have a much larger number (up to 8)</p>
 					</li>
 					<li className={styles.item}>
 						<GoTasklist style={{ marginRight: '10px' }} size={35} />
-						<p>Ви хочете власний інфо-продукт, послугу, книгу і т.д.</p>
+						<p>You need a short portfolio of a specialist or a business card site</p>
 					</li>
 				</ul>
-				<button className={styles.bn30}>Button</button>
+				<button className={styles.bn30}>I want</button>
 			</div>
 			<div className={styles.half}>
 				<img

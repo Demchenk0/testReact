@@ -30,7 +30,7 @@ const Landing4 = () => {
 					<p>Ви хочете власний інфо-продукт, послугу, книгу і т.д.</p>
 				</li>
 			</ul>
-			<button className={styles.bn30}>Button</button>
+			<button className={styles.bn30}>I want</button>
 		</div>
 		<div className={styles.half}>
 			<img

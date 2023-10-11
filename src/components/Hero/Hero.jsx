@@ -21,7 +21,7 @@ const Hero = () => {
 				<div className={styles.boxbtn}>
 					<p className={styles.textbtn}>Contact me about the work</p>
 					<a href="/">
-						<button className={styles.bn30}>Button</button>
+						<button className={styles.bn30}>Order</button>
 					</a>
 				</div>
 			</div>

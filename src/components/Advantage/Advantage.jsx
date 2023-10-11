@@ -12,10 +12,8 @@ const Advantage = () => {
 							<GoInfo size={25} />
 						</div>
 						<p className={styles.text}>
-							Досвід та експертиза: Компанія може мати значний досвід і велику
-							експертизу в обраній галузі айті. Це може включати в себе роботу з
-							великими корпораціями, успішні проекти або спеціалізовану
-							експертизу в певних технологіях.
+						Experience and expertise: The company may have significant experience and extensive expertise in the chosen IT industry. This may include working with large corporations, successful projects, or specialized expertise in certain technologies.
+
 						</p>
 					</div>
 					<div className={styles.card}>
@@ -23,10 +21,8 @@ const Advantage = () => {
 							<GoInfo size={25}/>
 						</div>
 						<p className={styles.text}>
-							Досвід та експертиза: Компанія може мати значний досвід і велику
-							експертизу в обраній галузі айті. Це може включати в себе роботу з
-							великими корпораціями, успішні проекти або спеціалізовану
-							експертизу в певних технологіях.
+						Quality of work: If a company is known for its quality of work, this can be one of the key reasons for choosing its services. Customer reviews and ratings can confirm their reputation.
+
 						</p>
 					</div>
 					<div className={styles.card}>
@@ -34,10 +30,8 @@ const Advantage = () => {
 							<GoInfo size={25} />
 						</div>
 						<p className={styles.text}>
-							Досвід та експертиза: Компанія може мати значний досвід і велику
-							експертизу в обраній галузі айті. Це може включати в себе роботу з
-							великими корпораціями, успішні проекти або спеціалізовану
-							експертизу в певних технологіях.
+						Variety of services: A company can offer a wide range of services, including web development, mobile apps, artificial intelligence, data accounting, etc., which can set it apart from the competition.
+
 						</p>
 					</div>
           <div className={styles.card}>
@@ -45,34 +39,25 @@ const Advantage = () => {
 							<GoInfo size={25} />
 						</div>
 						<p className={styles.text}>
-							Досвід та експертиза: Компанія може мати значний досвід і велику
-							експертизу в обраній галузі айті. Це може включати в себе роботу з
-							великими корпораціями, успішні проекти або спеціалізовану
-							експертизу в певних технологіях.
+						Price competitiveness: The price of services can be one of the key deciding factors for customers. If a company offers competitive prices with a high level of quality, this can be an important argument.
 						</p>
 					</div><div className={styles.card}>
 						<div className={styles.icon}>
 							<GoInfo size={25} />
 						</div>
 						<p className={styles.text}>
-							Досвід та експертиза: Компанія може мати значний досвід і велику
-							експертизу в обраній галузі айті. Це може включати в себе роботу з
-							великими корпораціями, успішні проекти або спеціалізовану
-							експертизу в певних технологіях.
+						Localization and accessibility: The location of a company and its accessibility for communication can be important for clients, especially if they are looking for a partner with whom they can effectively collaborate from a distance.
 						</p>
 					</div><div className={styles.card}>
 						<div className={styles.icon}>
 							<GoInfo size={25} />
 						</div>
 						<p className={styles.text}>
-							Досвід та експертиза: Компанія може мати значний досвід і велику
-							експертизу в обраній галузі айті. Це може включати в себе роботу з
-							великими корпораціями, успішні проекти або спеціалізовану
-							експертизу в певних технологіях.
+						Value and innovation: A company may stand out for its ability to offer innovative solutions or added value to clients that helps them achieve their goals more efficiently.
 						</p>
 					</div>
 				</div>
-				<button className={styles.bn30}>Button</button>
+				<button className={styles.bn30}>Order</button>
 			</div>
 		</section>
 	);
