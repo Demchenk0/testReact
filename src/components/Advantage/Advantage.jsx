@@ -3,7 +3,7 @@ import styles from './Advantage.module.scss';
 import { GoInfo } from 'react-icons/go';
 const Advantage = () => {
 	return (
-		<section className={styles.section}>
+		<section name='us' className={styles.section}>
 			<div className={styles.container}>
 				<h2 className={styles.why}>WHY should you choose us? </h2>
 				<div className={styles.box}>

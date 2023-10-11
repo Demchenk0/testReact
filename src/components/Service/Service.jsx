@@ -10,7 +10,7 @@ const Service = () => {
   const [activeButton, setActiveButton] = useState(1);
   
 	return (
-		<section className={styles.section}>
+		<section name='service' className={styles.section}>
 			<div className={styles.container}>
 				<h1 className={styles.texth1}>Service</h1>
 				<div className={styles.box}>

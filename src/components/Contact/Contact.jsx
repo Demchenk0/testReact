@@ -9,7 +9,7 @@ import {
 const Contact = () => {
 	const [input, setInput] = useState(1);
 	return (
-		<section className={styles.section}>
+		<section name='contact' className={styles.section}>
 			<div className={styles.container}>
 				<div className={styles.contact}>
 					<h2 className={styles.title}>Contact me</h2>
