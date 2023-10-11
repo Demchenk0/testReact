@@ -1,7 +1,9 @@
-import About from './components/About/About';
+// import About from './components/About/About';
+import Advantage from './components/Advantage/Advantage';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
+import Project from './components/Project/Project';
 import Service from './components/Service/Service';
 
 function App() {
@@ -10,8 +12,10 @@ function App() {
 			<Header />
 			<main>
 				<Hero />
-				<About />
+				<Advantage />
 				<Service />
+				<Project/>
+				{/* <About /> */}
 			</main>
 			<Footer />
 		</>
