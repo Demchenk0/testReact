@@ -50,7 +50,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    // display: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +59,23 @@
     text-align: center;
     transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 	transition-duration: 300ms;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/bgtest.jpg') ;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+	animation: slide 30s linear infinite;
+}
+
+@keyframes slide {
+	0%{
+		background-position: 0% 0% ;
+	}
+	50%{
+		background-position: 100% 0% ;
+	}
+	100%{
+		background-position: 0% 0% ;
+	}
 }
 .qq{
     cursor: pointer;

@@ -1,4 +1,4 @@
-// import About from './components/About/About';
+import Brief from './components/Brief/Brief';
 import Advantage from './components/Advantage/Advantage';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
@@ -17,7 +17,7 @@ function App() {
 				<Service />
 				<Project/>
 				<Contact/>
-				{/* <About /> */}
+				<Brief />
 			</main>
 			<Footer />
 		</>
