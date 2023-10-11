@@ -78,8 +78,16 @@
     text-align: center;
     padding: 30px 15px;
     background-color: rgba(148, 148, 148, 0.503);
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
-
+.half {
+    flex: 1;
+}
+ 
 .texth2 {
     font-size: 18px;
     font-weight: 600;
