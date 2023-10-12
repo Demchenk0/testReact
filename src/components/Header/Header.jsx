@@ -50,7 +50,7 @@ const Header = () => {
 							</Link>
 						</li>
 						<li className={styles.item}>
-							<Link to="home" smooth={true} duration={500} offset={-85}>
+							<Link to="FAQ" smooth={true} duration={500} offset={-85}>
 								FAQ
 							</Link>
 						</li>
@@ -98,7 +98,7 @@ const Header = () => {
 							<li className={styles.mobItem}>
 								{' '}
 								<Link
-									to="home"
+									to="FAQ"
 									smooth={true}
 									duration={500}
 									onClick={() => setNav(false)}

@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Project from './components/Project/Project';
 import Service from './components/Service/Service';
+import Faq from './components/FAQ/Faq';
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 				<Project/>
 				<Contact/>
 				<Brief />
+				<Faq/>
 			</main>
 			<Footer />
 		</>
